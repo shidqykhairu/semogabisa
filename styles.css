@@ -1,0 +1,37 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background-image: url('home.jpg'); /* Ganti dengan URL gambar latar belakang */
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: Actor;
+}
+
+.container {
+    text-align: center;
+}
+
+h1 {
+    font-size: 60px;
+    text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.7);
+    margin-bottom: 20px;
+}
+
+.start-button {
+    padding: 15px 30px;
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.start-button:hover {
+    background-color: rgba(255, 255, 255, 0.7);
+    color: black;
+}
